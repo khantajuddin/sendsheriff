@@ -10,32 +10,28 @@ export async function POST(request: Request) {
         const body: RequestBody = await request.json();
         const { url } = body;
 
-            const browser = await puppeteer.launch();
-            const page = await browser.newPage();
-          
-            // Navigate to the webpage
-            await page.goto(url, { waitUntil: 'networkidle2' });
-          
-            // Get the HTML content
-            const htmlContent = await page.content();
-          
-            // Save HTML content to a local file
-           // const outputFilePath = `public/preview.html`;
-            const outputFilePath = `/tmp/preview.html`;
-            const outputDirectory = `/tmp`;
-            
-            if (!fs.existsSync(outputDirectory)) {
-                fs.mkdirSync(outputDirectory);
-            }
-            fs.writeFileSync(outputFilePath, htmlContent, 'utf-8');
-          
-            console.log(`HTML saved to: ${outputFilePath}`);
-          
-            // Close the browser
-            await browser.close();
-          
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
 
-        return new Response(JSON.stringify({ url: "preview.html"}), {
+        // Navigate to the webpage
+        await page.goto(url, { waitUntil: 'networkidle2' });
+
+        // Get the HTML content
+        const htmlContent = await page.content();
+
+        // Generate a unique filename (you can use a hash or timestamp)
+        const uniqueFilename = `preview_${Date.now()}.html`;
+
+        // Save HTML content to the public directory with the unique filename
+        const outputFilePath = `public/${uniqueFilename}`;
+        fs.writeFileSync(outputFilePath, htmlContent, 'utf-8');
+
+        console.log(`HTML saved to: ${outputFilePath}`);
+
+        // Close the browser
+        await browser.close();
+
+        return new Response(JSON.stringify({ url: uniqueFilename }), {
             status: 200,
         });
     } catch (error) {
@@ -51,5 +47,3 @@ export async function POST(request: Request) {
         );
     }
 }
-
-
