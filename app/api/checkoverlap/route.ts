@@ -21,7 +21,7 @@ export async function POST(request: Request) {
   const elementsToCheck = await page.$$('*:not(html, head, body, style, br)');
 
   for (const elementHandle of elementsToCheck) {
-    const elementDescription = await page.evaluate((el: { outerHTML: any; }) => el.outerHTML, elementHandle);
+    const elementDescription = await page.evaluate((el: any) => el.outerHTML, elementHandle);
     const elementWidth = await page.evaluate((el: any) => el.offsetWidth, elementHandle);
     const parentWidth = await page.evaluate((el: any) => el.parentElement.offsetWidth, elementHandle);
 
@@ -32,7 +32,7 @@ export async function POST(request: Request) {
     }
 
     // Check if element has negative margin or position values
-    const styles = await page.evaluate((el: any) => {
+    const styles: any = await page.evaluate((el: any) => {
       return {
         marginTop: getComputedStyle(el).marginTop,
         marginRight: getComputedStyle(el).marginRight,
