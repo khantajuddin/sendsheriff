@@ -21,9 +21,9 @@ export async function POST(request: Request) {
   const elementsToCheck = await page.$$('*:not(html, head, body, style, br)');
 
   for (const elementHandle of elementsToCheck) {
-    const elementDescription = await page.evaluate(el => el.outerHTML, elementHandle);
-    const elementWidth = await page.evaluate(el => el.offsetWidth, elementHandle);
-    const parentWidth = await page.evaluate(el => el.parentElement.offsetWidth, elementHandle);
+    const elementDescription = await page.evaluate((el: { outerHTML: any; }) => el.outerHTML, elementHandle);
+    const elementWidth = await page.evaluate((el: { offsetWidth: any; }) => el.offsetWidth, elementHandle);
+    const parentWidth = await page.evaluate((el: { parentElement: { offsetWidth: any; }; }) => el.parentElement.offsetWidth, elementHandle);
 
     // Check if element has width greater than its parent's width
     if (elementWidth > parentWidth) {
@@ -32,7 +32,7 @@ export async function POST(request: Request) {
     }
 
     // Check if element has negative margin or position values
-    const styles = await page.evaluate(el => {
+    const styles = await page.evaluate((el: Element) => {
       return {
         marginTop: getComputedStyle(el).marginTop,
         marginRight: getComputedStyle(el).marginRight,
