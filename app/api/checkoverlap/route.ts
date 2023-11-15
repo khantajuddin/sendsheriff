@@ -32,7 +32,7 @@ export async function POST(request: Request) {
     }
 
     // Check if element has negative margin or position values
-    const styles = await page.evaluate((el: Element) => {
+    const styles = await page.evaluate((el: any) => {
       return {
         marginTop: getComputedStyle(el).marginTop,
         marginRight: getComputedStyle(el).marginRight,
