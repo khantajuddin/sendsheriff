@@ -32,7 +32,7 @@ export async function POST(request: Request) {
           const elementsToCheck = await page.$$('*:not(html, head, body, style, br)');
             for (const elementHandle of elementsToCheck) {
             const elementDescription = await page.evaluate((el: { outerHTML: any; }) => el.outerHTML, elementHandle);
-            const elementWidth = await page.evaluate((el: { offsetWidth: any; }) => el.offsetWidth, elementHandle);
+            const elementWidth = await page.evaluate((el: any ) => el.offsetWidth, elementHandle);
         
             // Check if element has width greater than viewport width
             if (elementWidth > width) {
@@ -48,7 +48,7 @@ export async function POST(request: Request) {
             // Extract href attributes
             return anchors.map(anchor => anchor.href);
           });
-          
+
         await browser.close();
         return new Response(JSON.stringify({ isResponsive, screenshots, links}), {
             status: 200,

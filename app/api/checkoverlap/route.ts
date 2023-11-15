@@ -22,8 +22,8 @@ export async function POST(request: Request) {
 
   for (const elementHandle of elementsToCheck) {
     const elementDescription = await page.evaluate((el: { outerHTML: any; }) => el.outerHTML, elementHandle);
-    const elementWidth = await page.evaluate((el: { offsetWidth: any; }) => el.offsetWidth, elementHandle);
-    const parentWidth = await page.evaluate((el: { parentElement: { offsetWidth: any; }; }) => el.parentElement.offsetWidth, elementHandle);
+    const elementWidth = await page.evaluate((el: any) => el.offsetWidth, elementHandle);
+    const parentWidth = await page.evaluate((el: any) => el.parentElement.offsetWidth, elementHandle);
 
     // Check if element has width greater than its parent's width
     if (elementWidth > parentWidth) {
