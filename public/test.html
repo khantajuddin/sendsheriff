@@ -1,0 +1,874 @@
+
+
+
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><style> 
+    .tooltip {
+      position: absolute;
+      display: inline-block;
+      font-size: 17px;
+    color: #4472C4;
+      margin-left: 30px;
+      margin-top:-5px;
+    
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #4472C4;
+      color: #fff;
+      text-align: left;
+      border-radius: 5px;
+      padding: 5px 5px;
+      position: absolute;
+      z-index: 8;
+      top: -5px;
+      right: 110%;
+      font-size: 10px;
+        
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 5%;
+      left: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent  #4472C4;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      width: auto;
+      height: auto;
+    }
+    </style>
+
+    </td></tr></table>
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><style> 
+    .tooltip {
+      position: absolute;
+      display: inline-block;
+      font-size: 17px;
+    color: #4472C4;
+      margin-left: 30px;
+      margin-top:-5px;
+    
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #4472C4;
+      color: #fff;
+      text-align: left;
+      border-radius: 5px;
+      padding: 5px 5px;
+      position: absolute;
+      z-index: 8;
+      top: -5px;
+      right: 110%;
+      font-size: 10px;
+        
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 5%;
+      left: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent  #4472C4;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      width: auto;
+      height: auto;
+    }
+    </style>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link href="http://www.crsc.philips.com/crsc/images/favicon.ico" rel="shortcut icon">
+    <meta name="email-name" content="Email Name">
+    <title>Philips </title>
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><style type="text/css">
+            /*.verticalSpacer, .headerVerticalSpacer {background: red; background: rgba(255, 0, 0, 0.5);}
+            .headerVerticalSpacer {background: rgba(0, 255, 0, 0.5);}
+            .horizontalSpacer {background: rgba(0, 0, 255, 0.5);}
+            .smallHorizontalSpacer {background: rgba(255, 255, 0, 0.5);}
+            .smallVerticalSpacer {background: pink; background: rgba(30, 130, 5, 0.5);}
+            .extraSmallVerticalSpacer  {background: blue; background: rgba(5, 255, 255, 0.5);}
+            .column {background: rgba(100, 100, 255, 0.5);}*/
+    
+            /*@import url(//secure.p01.eloqua.com/Web/PhilipsConsumerLifestyle/%7B7075dbba-c93e-4914-b10c-8691c562c148%7D_fonts_v3.css);*/
+    
+            /*GENERAL*/
+            body{width:100% !important; Margin:0px; margin:0px; padding:0px !important; background-color:#efefef;}
+            table{border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+            table td{border-collapse:collapse; line-height:0px; font-size:0px; padding:0px; margin:0px;}
+            .wrapper{Margin:0px; padding:0px; width:100% !important; max-width:660px; table-layout:fixed; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+            .two-column, .three-column, .sidebar{text-align:center; font-size:0px;}
+            .two-column .column, .three-column .column, .sidebar .column, .four-column .column {width:100%; display:inline-block; vertical-align:top;}
+    
+            a, a:link, a:visited, a:hover{color:#013F7A; text-decoration:none;}
+            .whiteLink a, .whiteLink a:link, .whiteLink a:visited, .whiteLink a:hover{color:#ffffff;}
+            a img{border:none;}
+            sup {line-height: 5px;font-size: 60%;vertical-align: top;mso-text-raise:60%; }
+            .text sup {font-size: 70%;}
+    
+            img{display:block; line-height:100%; outline:none; text-decoration:none; Margin:0px; -ms-interpolation-mode:bicubic;}
+            .image{width:100% !important;height:auto !important;}
+    
+            .c-preHeader{display:none !important; visibility:hidden; opacity:0px; color:#FFFFFF; height:0px; width:0px;}
+            .c-viewOnline{color:#8d8d8d; font-size:11px; font-weight:lighter; padding:0px; Margin:0px; text-align:right; line-height:150%; letter-spacing:0px;}
+    
+            /*LAYOUT - no media*/
+            .headerVerticalSpacer{width:4%;}
+            .headerContainerSpacer{width:90%;}
+    
+            /*LAYOUT Mobile - with media */
+            @media only screen and (min-width:1px){
+                .smallHorizontalSpacer {height: 18px !important;}
+                .horizontalSpacer {height: 29px !important;}
+                .verticalSpacer, .halfVerticalSpacer, .thirdVerticalSpacer, .twoThirdVerticalSpacer{width:6%; min-width: 0 !important;}
+                .containerSpacer, .halfContainerSpacer{width:88%; vertical-align:top;}
+    
+                /*remove max-width used for hybrid spongy*/
+                .content{max-width:none !important; float:none !important;}
+                .two-column .column,.three-column .column,.four-column .column,.sidebar .large,.sidebar .large_60,.sidebar .p_small,.sidebar .p_small_40{max-width:none !important;}
+            }
+    
+            /*LAYOUT Desktop - with media */
+            @media only screen and (min-width:500px){
+                .smallHorizontalSpacer {height: 23px !important;}
+                .horizontalSpacer {height: 37px !important;}
+    
+                .extraSmallVerticalSpacer{width:6px !important; display:block !important; max-width:none !important;}
+                .smallVerticalSpacer{width:12px !important; display:block !important; max-width:none !important;}
+                .headerVerticalSpacer{width:4% !important;}
+                .headerContainerSpacer{width:91% !important;}
+                .verticalSpacer{width:5% !important;}
+                .halfVerticalSpacer{width:2.5%;}
+                .thirdVerticalspacer{width:1.6%;}
+                .twoThirdVerticalspacer{width:3.3%;}
+                .containerSpacer{width:90% !important;}
+                .halfContainerSpacer{width:92.5% !important;}
+    
+                .two-column .column .verticalSpacer{width:10% !important;}
+                .two-column .column .halfVerticalSpacer{width:5% !important;}
+                .two-column .column .containerSpacer{width:80% !important;}
+                .two-column .column .halfContainerSpacer{width:85% !important;}
+                .two-column .column .headerContainerSpacer{width:72% !important;}
+                .two-column .column .headerVerticalSpacer{width:8% !important;}
+    
+                .three-column .column .verticalSpacer{width:15% !important;}
+                .three-column .column .twoThirdVerticalSpacer{width:10% !important;}
+                .three-column .column .thirdVerticalSpacer{width:5% !important;}
+                .three-column .column .halfContainerSpacer{width:80% !important;}
+    
+                .sidebar .large .verticalSpacer, .sidebar .large_60 .verticalSpacer{width:7.5% !important;} /*7.14*/
+                .sidebar .large .halfVerticalSpacer, .sidebar .large_60 .halfVerticalSpacer{width:3.5% !important;} /*3.46*/
+                .sidebar .large .containerSpacer, .sidebar .large_60 .containerSpacer{width:85% !important;}
+                .sidebar .large .halfContainerSpacer, .sidebar .large_60 .halfContainerSpacer{width:89% !important;}
+    
+                .p_small .verticalSpacer, .sidebar .p_small_40 .verticalSpacer{width:15% !important;}
+                .p_small .halfVerticalSpacer, .sidebar .p_small_40 .halfVerticalSpacer{width:7.5% !important;}
+                .p_small .containerSpacer, .sidebar .p_small_40 .containerSpacer{width:70% !important;}
+                .p_small .halfContainerSpacer, .sidebar .p_small_40 .halfContainerSpacer{width:77.5% !important;}
+    
+                .four-column .column {max-width:25% !important;}
+                .three-column .column{max-width:33.333333% !important;}
+                .two-column .column{max-width:50% !important;}
+                .one-column .column{max-width:100% !important;}
+                .sidebar .large{max-width:66% !important;}
+                .sidebar .large_60{max-width: 60% !important;}
+                .sidebar .p_small{max-width:34% !important;}
+                .sidebar .p_small_40{max-width:40% !important;}
+    
+                #logo{height:auto; width:160px; width:24vw;}
+                #logoSpacer img{height:24vw !important;}
+                .onePixel img {height:1px !important;}
+    
+                .hideDesktop{display:none !important;}
+                .showDesktop{display:block !important;}
+              .desktopInline{display: inline-block !important;}
+                .desktopFloatRight{float:right;}
+                .desktopFloatLeft{float:left;} 
+    
+                .largeTitle {font-size: 34px !important; line-height: 40px !important;}
+                .extraLargeTitle {font-size: 37px !important; line-height: 45px !important}
+                .heroTitle {font-size: 58px !important; line-height: 64px !important}
+       
+       .footer td {display: table-cell !important;}
+       .footer th {display: table-cell !important; width:30% !important;}
+                .footer .left, .footer .center, .footer .right  {width: 30% !important;}
+                .footer .left p {text-align: left !important;}
+                .footer .right p {text-align: right !important;}
+       
+            }
+    
+            @media screen and (max-width:499px){
+                .flexibleHeight{height:auto !important;}
+            }
+    
+            @media screen and (min-width:661px){
+                .container{width:660px !important;}
+            }
+            
+            [class$="-fixed"] .extraSmallVerticalSpacer{width:6px !important; display:block !important; max-width:none !important;}
+            [class$="-fixed"] .smallVerticalSpacer{width:12px !important; display:block !important; max-width:none !important;}
+            [class$="-fixed"] .headerVerticalSpacer{width:4% !important;}
+            [class$="-fixed"] .headerContainerSpacer{width:91% !important;}
+            [class$="-fixed"] .verticalSpacer, [class$="-fixed"] .halfVerticalSpacer{width:5% !important;}
+            [class$="-fixed"] .containerSpacer, [class$="-fixed"] .halfContainerSpacer{width:90% !important;}
+    
+            .two-column-fixed .column .verticalSpacer, .two-column-fixed .column .halfVerticalSpacer{width:10% !important;}
+            .two-column-fixed .column .containerSpacer, .two-column-fixed .column .halfContainerSpacer{width:80% !important;}
+            .two-column-fixed .column .headerContainerSpacer{width:72% !important;}
+            .two-column-fixed .column .headerVerticalSpacer{width:8% !important;}
+    
+            .three-column-fixed .column .verticalSpacer{width:15% !important;}
+            .three-column-fixed .column .twoThirdVerticalSpacer{width:10% !important;}
+            .three-column-fixed .column .thirdVerticalSpacer{width:5% !important;}
+            .three-column-fixed .column .halfContainerSpacer{width:80% !important;}
+    
+            .sidebar-fixed .large .verticalSpacer, .sidebar-fixed .large_60 .verticalSpacer{width:7.5% !important;}
+            .sidebar-fixed .large .halfVerticalSpacer, .sidebar-fixed .large_60 .halfVerticalSpacer{width:3.5% !important;}
+            .sidebar-fixed .large .containerSpacer, .sidebar-fixed .large_60 .containerSpacer{width:85% !important;}
+            .sidebar-fixed .large .halfContainerSpacer, .sidebar-fixed .large_60 .halfContainerSpacer{width:89% !important;}
+            .sidebar-fixed .p_small .verticalSpacer, .sidebar-fixed .p_small_40 .verticalSpacer{width:15% !important;}
+            .sidebar-fixed .p_small .halfVerticalSpacer, .sidebar-fixed .p_small_40 .halfVerticalSpacer{width:7.5% !important;}
+            .sidebar-fixed .p_small .containerSpacer, .sidebar-fixed .p_small_40 .containerSpacer{width:70% !important;}
+            .sidebar-fixed .p_small .halfContainerSpacer, .sidebar-fixed .p_small_40 .halfContainerSpacer{width:77.5% !important;}
+    
+            .four-column-fixed .column {max-width:25% !important;}
+            .three-column-fixed .column{max-width:33.3333% !important;}
+            .two-column-fixed .column{max-width:50% !important;}
+            .one-column-fixed .column{max-width:100% !important;}
+            .sidebar-fixed .large{max-width:66% !important;}
+            .sidebar-fixed .large_60{max-width: 60% !important;}
+            .sidebar-fixed .p_small{max-width:34% !important;}
+            .sidebar-fixed .p_small_40{max-width:40% !important;}
+    
+            /*INTERACTIVE EMAIL*/
+            #checkbox-supported:checked ~ div .interActiveRequired {display: table-cell !important; }
+            #mobile-checkbox:checked + div #menu-wrapper{max-height:500px !important;}
+            #mobile-checkbox:checked + div #menu-table{display: table !important;}
+            #mobile-checkbox:checked + div .hideButton{display: none !important;}
+            #menu-wrapper{transition:max-height .25s linear;}
+    
+            /*iOS + APPLE MAIL SPECIFIC*/
+            /*@media screen and (-webkit-min-device-pixel-ratio: 0) {}*/
+    
+            /*Samsung android specific*/
+            /*#MessageViewBody .foo {}*/
+    
+            /*GMAIL / INBOX SPECIFIC WEB+APP*/
+            /*u + .body .foo {}*/
+    
+            /*OUTLOOK DESKTOP SPECIFIC */
+            .outlook .smallHorizontalSpacer {height: 23px !important;}
+            .outlook .horizontalSpacer {height: 37px !important;}
+    
+            .outlook .extraSmallVerticalSpacer{width:6px !important; display:block !important; max-width:999px !important;}
+            .outlook .smallVerticalSpacer{width:12px !important; display:block !important; max-width:999px !important;}
+            .outlook .headerVerticalSpacer{width:4% !important;}
+            .outlook .headerContainerSpacer{width:91% !important;}
+            .outlook .verticalSpacer{width:5% !important;}
+            .outlook .halfVerticalSpacer{width:2.5% !important;}
+            .outlook .containerSpacer{width:90% !important;}
+            .outlook .halfContainerSpacer{width:92.5% !important;}
+            .outlook .two-column .column .verticalSpacer{width:10% !important;}
+            .outlook .two-column .column .halfVerticalSpacer{width:5% !important;}
+            .outlook .two-column .column .containerSpacer{width:80% !important;}
+            .outlook .two-column .column .halfContainerSpacer{width:85% !important;}
+            .outlook .two-column .column .headerContainerSpacer{width:72% !important;}
+            .outlook .two-column .column .headerVerticalSpacer{width:8% !important;}
+            .outlook .three-column .column .verticalSpacer{width:15% !important;}
+            .outlook .three-column .column .twoThirdVerticalSpacer{width:10% !important;}
+            .outlook .three-column .column .thirdVerticalSpacer{width:5% !important;}
+            .outlook .three-column .column .halfContainerSpacer{width:80% !important;}
+            .outlook .sidebar .large .verticalSpacer, .outlook .sidebar .large_60 .verticalSpacer{width:7.5% !important;}
+            .outlook .sidebar .large .halfVerticalSpacer, .outlook .sidebar .large_60 .halfVerticalSpacer{width:3.5% !important;}
+            .outlook .sidebar .large .containerSpacer, .outlook .sidebar .large_60 .containerSpacer{width:85% !important;}
+            .outlook .sidebar .large .halfContainerSpacer, .outlook .sidebar .large_60 .halfContainerSpacer{width:89% !important;}
+            .outlook .p_small .verticalSpacer, .outlook .sidebar .p_small_40 .verticalSpacer{width:15% !important;}
+            .outlook .p_small .halfVerticalSpacer, .outlook .sidebar .p_small_40 .halfVerticalSpacer{width:7.5% !important;}
+            .outlook .p_small .containerSpacer, .outlook .sidebar .p_small_40 .containerSpacer{width:70% !important;}
+            .outlook .p_small .halfContainerSpacer, .outlook .sidebar .p_small_40 .halfContainerSpacer{width:77.5% !important;}
+    
+            .outlook #logo{width:160px !important; height:160px !important;}
+            .outlook #logoSpacer img{height:160px !important;}
+    
+            /*remove max-width used for hybrid spongy*/
+            .outlook .content{max-width:999px !important;float:none !important;}
+            .outlook .two-column .column,.outlook .three-column .column,.outlook .four-column .column,.outlook .sidebar .large,.outlook .sidebar .large_60,.outlook .sidebar .p_small,.outlook .sidebar .p_small_40{max-width:999px !important;}
+    
+            .outlook .showDesktop{display:block !important;}
+            .outlook .hideBorder{border:0px !important;}
+            .outlook .hideOutlook, .outlook .hideDesktop, .outlook .hideDesktop table{height:0px !important; width:0px !important; display:none !important; mso-hide:all; overflow:hidden;  }
+            .outlook .desktopFloatRight{float:right}
+            .outlook .desktopFloatLeft{float:left}
+    
+            .outlook .cta{height:30px;}
+            .outlook .largeTitle {font-size: 34px !important; line-height: 40px !important;}
+            .outlook .extraLargeTitle {font-size: 37px !important; line-height: 45px !important}
+            .outlook .heroTitle {font-size: 58px !important; line-height: 64px !important}
+    
+            .outlook .footer th {display: table-cell !important; width: 30% !important; font-weight: normal;}
+            .outlook .footer th.left p {text-align: left !important;}
+            .outlook .footer th.right p {text-align: right !important;}  
+    
+            /*OLD OUTLOOK.COM FIXES*/
+            .ReadMsgBody{width:100%;}/* Force hotmail/outlook.com to display at full width (outer div) */
+            .ExternalClass{width:100%;}
+            .ExternalClass *{line-height:100%;}
+            .ExternalClass a:link{text-decoration:none !important;}
+            .ExternalClass p{Margin-bottom:0px !important;}
+    
+            /* YAHOO FIXES */
+            p{Margin:1em 0px;}
+            span.yshortcuts, a span.yshortcuts{ color:#3c3c3c; background-color:none; border:none;}
+            span.yshortcuts:hover, span.yshortcuts:active, span.yshortcuts:focus{ color:#3c3c3c; background-color:transparent; border:none;}
+    
+    
+        </style> 
+      <style>
+            /* ATTRIBUTES */
+            a[href^="x-apple-data-detectors:"]{color:inherit !important;}
+            [style*="centrale_sans"]{font-family:centrale_sans, Tahoma, Geneva, sans-serif !important;}
+            [style*="centrale_sans_book"]{font-family:centrale_sans_book, Tahoma, Geneva, sans-serif !important; font-weight:normal !important;}
+    
+            /*NEW OUTLOOK.COM FIXES*/
+            [owa] .verticalSpacer{width:5% !important;}
+            [owa] .halVerticalSpacer{width:2.5% !important;}
+            [owa] .containerSpacer{width:90% !important;}
+            [owa] .halfContainerSpacer{width:92.5% !important;}
+            [owa] .two-column .column .verticalSpacer{width:10% !important;}
+            [owa] .two-column .column .halfVerticalSpacer{width:5% !important;}
+            [owa] .two-column .column .containerSpacer{width:80% !important;}
+            [owa] .two-column .column .halfContainerSpacer{width:85% !important;}
+            [owa] .headerVerticalSpacer{width:4% !important;}
+            [owa] .headerContainerSpacer{width:91% !important;}
+            [owa] .smallVerticalSpacer{width:12px !important; display:block !important; max-width:none !important;}
+            [owa] .extraSmallVerticalSpacer{width:6px !important; display:block !important; max-width:none !important;}
+            [owa] .sidebar .large .verticalSpacer, [owa] .sidebar .large_60 .verticalSpacer{width:7.5% !important;}
+            [owa] .sidebar .large .halfVerticalSpacer, [owa] .sidebar .large_60 .halfVerticalSpacer{width:3.5% !important;}
+            [owa] .sidebar .large .containerSpacer, [owa] .sidebar .large_60 .containerSpacer{width:85% !important;}
+            [owa] .sidebar .large .halfContainerSpacer, [owa] .sidebar .large_60 .halfContainerSpacer{width:89% !important;}
+            [owa] .p_small .verticalSpacer, [owa] .sidebar .p_small_40 .verticalSpacer{width:15% !important;}
+            [owa] .p_small .halfVerticalSpacer, [owa] .sidebar .p_small_40 .halfVerticalSpacer{width:7.5% !important;}
+            [owa] .p_small .containerSpacer, [owa] .sidebar .p_small_40 .containerSpacer{width:70% !important;}
+            [owa] .p_small .halfContainerSpacer, [owa] .sidebar .p_small_40 .halfContainerSpacer{width:77.5% !important;}
+    
+            [owa] .four-column .column{max-width:25% !important;}
+            [owa] .three-column .column{max-width:33% !important;}
+            [owa] .two-column .column{max-width:50% !important;}
+            [owa] .one-column .column{max-width:100% !important;}
+            [owa] .sidebar .large{max-width:66% !important;}
+            [owa] .sidebar .large_60{max-width: 60% !important;}
+            [owa] .sidebar .p_small{max-width:34% !important;}
+            [owa] .sidebar .p_small_40{max-width:40% !important;}
+            [owa] .content{max-width:none !important; float:none !important;}
+    
+            [owa] .largeTitle {font-size: 34px !important; line-height: 40px !important;}
+            [owa] .extraLargeTitle {font-size: 37px !important; line-height: 45px !important}
+            [owa] .heroTitle {font-size: 58px !important; line-height: 64px !important}
+        </style> 
+      <!--[if gte mso 15]>     <style type="text/css">         table, td {             font-size: 1px;             mso-line-height-alt: 0px;             mso-line-height-rule: exactly;             line-height: 0px;             mso-Margin-top-alt: 1px;             border: none;         }     </style>     <![endif]--> 
+      <!--[if gte mso 9]>     <xml>         <o:OfficeDocumentSettings>             <o:AllowPNG/>             <o:PixelsPerInch>96</o:PixelsPerInch>         </o:OfficeDocumentSettings>     </xml><![endif]--> </td></tr></table>
+    
+    <div id="generatePDF">
+    
+    <center>
+      <table role="presentation" class="wrapper" width="100%" cellspacing="0" cellpadding="0" border="0">
+    
+        <tr>
+          <td valign="top" align="center">
+            <!--[if (gte mso 9)|(IE)]>
+    <table role="presentation" class="outlook" width="660" align="center" cellpadding="0" cellspacing="0" border="0" style="width: 660px;">
+    <tr>
+    <td>
+    <![endif]--> 
+            <table id="generatePDFF" role="presentation" class="container" style="max-width: 660px;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="center">
+    
+              <tr>
+                <td>
+                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" border="0" cellpadding="0" cellspacing="0">  
+      <tr data-moduleid="0-1-0-0"> 
+       <td class="one-column"> 
+         <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+          <tr> 
+           <td height="30" valign="middle"><p style="font-size:12px; line-height:22px; font-family:Tahoma, Geneva, sans-serif, centrale_sans; color:#3c3c3c; Margin:0; text-align: center;"> Having trouble viewing this email? <a alias="viewOnline-c3832-link" target="_blank" href="https://view.eu.ph.mc.philips.com/?qs=5ed91e865b913814395f8f7bded92fd6127e2b9ca32dbe6b">Click here</a>  </p></td> 
+          </tr> 
+        </table>
+         
+       </td> 
+      </tr> 
+    </table></td></tr></table>
+                  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><style> 
+    .tooltip {
+     position: absolute;
+      display: inline-block;
+      font-size: 17px;
+    color: #4472C4;
+      margin-left: 30px;
+      margin-top:-5px;
+    
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #4472C4;
+      color: #fff;
+      text-align: left;
+      border-radius: 5px;
+      padding: 5px 5px;
+      position: absolute;
+      z-index: 8;
+      top: -5px;
+      right: 110%;
+      font-size: 10px;
+        
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 5%;
+      left: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent  #4472C4;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      width: auto;
+      height: auto;
+    }
+    </style>
+
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#13123a" dir="ltr" style="direction:ltr;"> <tr> <td width="100%" align="left" valign="top" class="flexibleHeight" height="322" style="background-image:url('https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/57412437-417f-4067-b7a5-db2253b0edcc.jpg'); background-repeat:no-repeat; background-position: center center; background-size: auto 100%;" background="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/57412437-417f-4067-b7a5-db2253b0edcc.jpg">   <!--[if gte mso 9]><center><img src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/57412437-417f-4067-b7a5-db2253b0edcc.jpg" alt="hero image" height="322" width=auto border="0" style="display: block; width:auto" /></center><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="position:relative;top:-322px;left:0px;width:660px; height: 322px" href="https://www.shop.philips.co.in/men?linkname=homepage-933-headerImage&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid="> <v:textbox inset="0,0,0,0"><![endif]-->  <div> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"> <tr> <td class="headerVerticalSpacer" width="1%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td> <td class="headerContainerSpacer" width="90%"> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="content"> <tr> <td colspan="2" class="" width="100%" height="1" style="height:1px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt="" style="display:none;"></td> </tr> <tr> <td width="98" valign="top">   <a target="_blank" alias="homepage-933-logo" data-track="homepage-933-logo" href="https://www.philips.co.in/?linkname=homepage-933-logo&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid="> <img itemprop="logo" width="103" border="0" style="width: 103px; min-height: 56px; max-height: 90px; display:block; border:0px;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/481cb024-d8ad-48b8-9cad-41e5beec9abd.png" alt="philips logo"> </a> </td> <td>   <a target="_blank" alias="hero-933-logo" data-track="hero-933-logo" href="https://www.shop.philips.co.in/men?linkname=hero-933-logo&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid="> <img width="100%" height="85" border="0" style="display: block; border:0px;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="hero image"> </a> </td> </tr> <tr> <td class="onePixel" width="100%" colspan="2">   <a target="_blank" alias="hero-933-logo" data-track="hero-933-logo" href="https://www.shop.philips.co.in/men?linkname=hero-933-logo&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid="> <img width="100%" height="1" border="0" style="padding-top:38.0327868852459%; display: block; border:0px; max-height: 1px;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt=""> </a> </td> </tr> </table> </td> <td class="verticalSpacer" width="6%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td> </tr> </table> </div>  <!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->  </td> </tr> </table></td></tr></table>  </td></tr></table> 
+
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" dir="ltr" style="direction:ltr;"> <tr><td class="adjustedSpacer" width="100%" height="14" style="height:14px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> <tr><td class="containerSpacer one-column" width="100%"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column">   <tr><td class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> </table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column"><tr><td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="" height="0"></td><td width="88%"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column"> <tr><td dir="ltr" style="direction:ltr;color:#3c3c3c">  <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Philips E-store is here with a curated sale offering for a limited time period. What are you waiting for? Login now to discover premium Philips products and dial up your style game every day!</p></td></tr>     </table></td><td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td></tr></table></td></tr><tr><td colspan="3" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> <tr><td class="adjustedSpacer" width="100%" height="14" style="height:14px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> </table> </td></tr></table>
+    </td></tr></table> 
+    
+
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> 
+    <table role="presentation" dir="ltr" style="direction:ltr;" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">  
+      <tr> 
+        <td class="two-column" style="text-align: center; font-size: 0px; direction:ltr;" width="100%"> 
+          <!--[if (gte mso 9)|(IE)]> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="vertical-align: top;"> <tr> <td width="50%" valign="top"> <![endif]-->  
+          <div class="column" style="width: 100%; max-width: 330px; display: inline-block; vertical-align: top; float:left;"> 
+            <table role="presentation" class="content flexibleHeight" style="" width="100%" height="" cellspacing="0" cellpadding="0" border="0" bgcolor="">   
+              <tr> 
+                <td colspan="3" class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>  
+              <tr> 
+                <td colspan="3" class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>   
+              <tr> 
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+                <td class="halfContainerSpacer" width="88%"> 
+                  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                    <tr> 
+                      <td dir="ltr" style="direction:ltr; color:#eb5173;">  <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Multigroom series 5000</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">multipurpose trimmer</p>  
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr> 
+                  </table> 
+                </td> 
+                <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>  
+              <tr>  
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td>  
+                <td class="halfContainerSpacer" colspan="" width="88%">  
+                  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                    <tr> 
+                      <td dir="ltr" style="direction:ltr;" width="100%">   
+                        <a alias="pdp-930-img" data-track="pdp-930-img" href="https://www.philips.co.in/c-p/MG3760_33/multigroom-series-5000-multipurpose-trimmer?linkname=pdp-930-img&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> 
+                          <img src="https://images.philips.com/is/image/philipsconsumer/9653dcfbf39245bc81d0ae7b00d8e8e0?hei=400&wid=400" style="display:block; width:100%;" alt="image" width="280" border="0"> </a> 
+                      </td> 
+                    </tr>  
+                    <tr> 
+                      <!-- show spacer if anything below the image is used, or padding is not false --> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr>  
+                  </table>  
+                </td>  
+                <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td>  
+              </tr> 
+              <tr> 
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+                <td class="halfContainerSpacer" width="88%"> 
+                  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">   
+                    <tr> 
+                      <td dir="ltr" style="direction:ltr; color:#3c3c3c;">  <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"></p><table width="100%" cellpadding="5" cellspacing="0" border="0" style="max-width: 660px; color:#3c3c3c;"><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">11 pieces</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">DualCut technology</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">lithium power: 75 min runtime</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Impact-resistant combs</p></td></tr></table><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"><br><strong style='font-size:18px;line-height:22px;'>&#x20B9; 2599</strong></p> 
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr>           
+                    <tr> 
+                      <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr>  
+                  </table> 
+                </td> 
+                <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr> 
+            </table> 
+          </div> 
+          <!--[if (gte mso 9)|(IE)]> </td> <td width="50%" valign="top"> <![endif]--> 
+          <div class="column" style="width: 100%; max-width: 330px; display: inline-block; vertical-align: top; "> 
+            <table role="presentation" class="content flexibleHeight" style="" width="100%" height="" cellspacing="0" cellpadding="0" border="0" bgcolor="">   
+              <tr> 
+                <td colspan="3" class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>  
+              <tr> 
+                <td colspan="3" class="showDesktop" style="height:14px;" width="100%" height="14px"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>   
+              <tr> 
+                <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+                <td class="halfContainerSpacer" width="88%"> 
+                  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                    <tr> 
+                      <td dir="ltr" style="direction:ltr; color:#eb5173;">  <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Beardtrimmer series 3000</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">Beard trimmer</p>  
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr> 
+                  </table> 
+                </td> 
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr>  
+              <tr>  
+                <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td>  
+                <td class="halfContainerSpacer" colspan="" width="88%">  
+                  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                    <tr> 
+                      <td dir="ltr" style="direction:ltr;" width="100%">   
+                        <a alias="pdp-930-img" data-track="pdp-930-img" href="https://www.philips.co.in/c-p/BT3231_15/beardtrimmer-series-3000-beard-trimmer?linkname=pdp-930-img&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> 
+                          <img src="https://images.philips.com/is/image/philipsconsumer/023d225f642445218abfae7d009d3e57?hei=400&wid=400" style="display:block; width:100%;" alt="image" width="280" border="0"> </a> 
+                      </td> 
+                    </tr>  
+                    <tr> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    </tr>  
+                  </table>  
+                </td>  
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td>  
+              </tr>   
+                    <tr> 
+        <td class="halfVerticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""> 
+                </td> 
+                <td class="halfContainerSpacer" width="88%">
+                  <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="content"> 
+                    <tr>
+                      <td dir="ltr" style="direction:ltr; color:#3c3c3c">  <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"></p><table width="100%" cellpadding="5" cellspacing="0" border="0" style="max-width: 660px; color:#3c3c3c;"><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">PowerAdapt Sensor</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Stainless steel blades</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">60 min cordless use/1h charge</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Lift & Trim system</p></td></tr></table><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"><br><span style='text-decoration:line-through;'>&#x20B9; 1995.00</span><br><strong style='font-size:18px;line-height:22px;color:#f18101;'>&#x20B9; 1499</strong></p> 
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+         </td> 
+                    </tr> 
+                  </table>
+                </td>
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt="">
+                      </td> 
+                    </tr>             
+                    <tr> 
+                      <td class="halfVerticalSpacer" width="6%"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                      </td> 
+                    <td class="halfContainerSpacer" width="88%"> 
+        <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="content"> 
+                    <tr> 
+                      <td class="adjustedSpacer" width="100%" height="14px" style="height:14px;"> 
+                        <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""> 
+                      </td> 
+                    </tr> 
+                  </table> 
+                </td> 
+                <td class="verticalSpacer" width="6%"> 
+                  <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> 
+                </td> 
+              </tr> 
+            </table> 
+          </div>  
+          <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> 
+        </td> 
+      </tr> 
+    </table> 
+    </td></tr></table>
+      </td></tr></table>
+    </td></tr></table> 
+    
+    
+    
+    
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" dir="ltr" style="direction:ltr;"> <!-- note: spacing top component --> <tr> <td colspan="3" class="adjustedSpacer" width="100%" height="14" style="height:14px;"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""> </td> </tr>   <tr> <td colspan="3" class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>    <tr> <td colspan="3" width="100%"> <div style="display:none;" class="showDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td width="26%" dir="ltr" valign="top" style="direction:ltr; color:#eb5173;"> <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Hair Dryer</p>  </td> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td dir="ltr" style="direction:ltr; color:#eb5173;" width="27%" valign="top">  <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">5000 Series</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">Hair Styling Set</p>  </td> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td width="26%" dir="ltr" valign="top" style="direction:ltr; color:#eb5173;">  <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Advanced</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">KeraShine straightener</p>  </td> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> <tr> <td colspan="7" class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table></div></td> </tr> <tr> <td colspan="3" class="three-column" style="text-align: center; font-size: 0px; direction:ltr;" width="100%"> <!--[if (gte mso 9)|(IE)]> <table width="100%" border="0" cellpadding="0" cellspacing="0" style="vertical-align: top;"> <tr> <td width="33%" valign="top"> <![endif]-->  <div class="column" style="width: 100%; max-width: 220px; display: inline-block; vertical-align: top;"> <table role="presentation" class="content flexibleHeight" width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only --> <tr> <td colspan="3"> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr; color:#eb5173;"> <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Hair Dryer</p> </td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </td> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div> </td> </tr> <!-- end mobile only --> <tr> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" colspan="" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr;" width="100%">  <a alias="pdp-931-img" data-track="pdp-931-img" href="https://www.philips.co.in/c-p/BHD399_00/hair-dryer?linkname=pdp-931-img&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> <img src="https://images.philips.com/is/image/philipsconsumer/3228e4005f874342b5b2ae76011e4e21?hei=400&wid=400" style="display:block; width:100%;" alt="image" width="174" border="0"></a></td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  </table></td> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td></tr> <tr> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">  <tr> <td dir="ltr" style="direction:ltr; color:#3c3c3c;"> <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"></p><table width="100%" cellpadding="5" cellspacing="0" border="0" style="max-width: 660px; color:#3c3c3c;"><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">1800W</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Mineral Ionic*</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">50 million ions**</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Caring temperature</p></td></tr></table><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"><br><strong style='font-size:18px;line-height:22px;'>&#x20B9; 2999</strong></p></td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only section -->   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr></table> </div> </td> </tr> <!-- end mobile only section --> </table> </td> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div>  <!--[if (gte mso 9)|(IE)]></td><td width="33%;" valign="top"><![endif]-->  <div class="column" style="width: 100%; max-width: 220px; display: inline-block; vertical-align: top;"> <table role="presentation" class="content flexibleHeight" width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only --> <tr> <td colspan="3"> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr; color:#eb5173;"> <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">5000 Series</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">Hair Styling Set</p> </td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </td> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div> </td> </tr> <!-- end mobile only --> <tr> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" colspan="" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr;" width="100%">  <a alias="trackingLinkNameNotAvailable-931-img" data-track="trackingLinkNameNotAvailable-931-img" href="https://www.philips.co.in/c-p/BHH816_00/5000-series-hair-styling-set?linkname=trackingLinkNameNotAvailable-931-img&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> <img src="https://images.philips.com/is/image/philipsconsumer/9b5ce8a232f248909d45ae77013fc1ce?hei=400&wid=400" style="display:block; width:100%;" alt="image" width="174" border="0"></a></td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  </table></td> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td></tr> <tr> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">  <tr> <td dir="ltr" style="direction:ltr; color:#3c3c3c;"> <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"></p><table width="100%" cellpadding="5" cellspacing="0" border="0" style="max-width: 660px; color:#3c3c3c;"><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">3 attachments</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Ceramic coating</p></td></tr></table><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"><br><span style='text-decoration:line-through;'>&#x20B9; 4995.00</span><br><strong style='font-size:18px;line-height:22px;color:#f18101;'>&#x20B9; 3699</strong></p></td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only section -->   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div> </td> </tr> <!-- end mobile only section --> </table> </td> <td class="twoThirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div>  <!--[if (gte mso 9)|(IE)]></td><td width="33%;" valign="top"><![endif]-->  <div class="column" style="width: 100%; max-width: 220px; display: inline-block; vertical-align: top;"> <table role="presentation" class="content flexibleHeight" width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only --> <tr> <td colspan="3"> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr; color:#eb5173;"> <p class="title" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:17px; line-height:25px; margin:0; text-align:left; word-break: break-word;">Advanced</p>   <p class="subTitle" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:15px; line-height:25px; margin:0; text-align:left;">KeraShine straightener</p> </td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </td> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div> </td> </tr> <!-- end mobile only --> <tr> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" colspan="" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td dir="ltr" style="direction:ltr;" width="100%">  <a alias="pdp-931-img" data-track="pdp-931-img" href="https://www.philips.co.in/c-p/BHS378_10/advanced-kerashine-straightener?linkname=pdp-931-img&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> <img src="https://images.philips.com/is/image/philipsconsumer/08e00174fa6040818025ae7900932157?hei=400&wid=400" style="display:block; width:100%;" alt="image" width="174" border="0"></a></td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  </table></td> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td></tr> <tr> <td class="thirdVerticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td class="halfContainerSpacer" width="88%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">  <tr> <td dir="ltr" style="direction:ltr; color:#3c3c3c;"> <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"></p><table width="100%" cellpadding="5" cellspacing="0" border="0" style="max-width: 660px; color:#3c3c3c;"><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">SilkPro Care</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">ThermoProtect technology</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Keratin-infused plates</p></td></tr><tr><td width="15" valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">&#8226;</p></td><td valign="top" style="color:#3c3c3c;"><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">Ionic care</p></td></tr></table><p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;"><br><span style='text-decoration:line-through;'>&#x20B9; 3695.00</span><br><strong style='font-size:18px;line-height:22px;color:#f18101;'>&#x20B9; 3299</strong></p></td> </tr> <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td> <div class="hideDesktop"> <table width="100%" cellspacing="0" cellpadding="0" border="0"> <!-- start mobile only section -->   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div> </td> </tr> <!-- end mobile only section --> </table> </td> <td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </div>  <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> </td> </tr> <tr> <td colspan="3"> <div style="display:none;" class="showDesktop"> <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <!-- section only visible on desktop to align --> <td valign="top" width="33%">  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td width="15%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td width="80%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </td> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table>  </td> <!-- end bottom row col 1--> <td valign="top" width="33%">  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td width="10%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td width="80%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr></table> </td> <td width="10%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table>  </td> <!-- end bottom row col 2--> <td valign="top" width="33%">  <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0"> <tr> <td width="5%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> <td width="80%"> <table role="presentation" class="content" width="100%" cellspacing="0" cellpadding="0" border="0">   <tr> <td class="adjustedSpacer" style="height:14px;" width="100%" height="14px"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr>  <tr> <td class="smallHorizontalSpacer" style="height:23px;" width="100%" height="23"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table> </td> <td width="15%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"> </td> </tr> </table>  </td> <!-- end bottom row col 3--> </tr> </table> </div> </td> </tr> <!-- end desktop only section--> </table></td></tr></table>
+      </td></tr></table>
+    </td></tr></table> 
+    
+    
+
+    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" dir="ltr" style="direction:ltr;"> <tr><td class="adjustedSpacer" width="100%" height="14" style="height:14px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> <tr><td class="containerSpacer one-column" width="100%"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column">   </table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column"><tr><td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="" height="0"></td><td width="88%"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="column">   <tr><td><table role="presentation" border="0" cellpadding="0" cellspacing="0" style="text-align:center;" align="center"><tr align="center" style="display:block;"> <td class="desktopInline" style="display: block; direction:ltr;" dir="ltr">    
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      
+      <tr>
+       <td class="button" align="center" dir="ltr" style="float: center; margin: 5px;">
+        <div style="display: inline-block;">
+         <!--[if (gte mso 9)|(IE)]>
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.shop.philips.co.in/salebration?linkname=trackingLinkNameNotAvailable-934-cta&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" style="height:60px;v-text-anchor:middle;width:170px;" arcsize="10%" stroke="f" fillcolor="#eb5173">
+    <w:anchorlock/>
+    <center>
+    <![endif]-->
+         <a alias="trackingLinkNameNotAvailable-934-cta" href="https://www.shop.philips.co.in/salebration?linkname=trackingLinkNameNotAvailable-934-cta&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" style="width:170px; max-width:230px; background-color:#eb5173;border-radius:3px;color:#ffffff;display:inline-block; font-family:Tahoma, Geneva, sans-serif, centrale_sans; font-size: 18px; line-height:60px; text-align:center;text-decoration:none;-webkit-text-size-adjust:none;" target="_blank" data-track="trackingLinkNameNotAvailable-934-cta">Buy Now</a>
+         <!--[if (gte mso 9)|(IE)]>
+    </center>
+    </v:roundrect>
+    <![endif]-->
+        </div> </td>
+      </tr> 
+       
+    </table> </td>  <td> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr></table></td></tr>   </table></td><td class="verticalSpacer" width="6%"> <img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td></tr></table></td></tr><tr><td colspan="3" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> <tr><td class="adjustedSpacer" width="100%" height="14" style="height:14px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td></tr> </table> </td></tr></table>
+    </td></tr></table> 
+    
+    
+    
+    <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"> 
+     <tbody> 
+      <tr> 
+       <td class="stylingblock-content-wrapper camarker-inner">  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" dir="ltr" style="direction:ltr;">
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                    <tr><!-- note: spacing top component -->
+                        <td colspan="3" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="verticalSpacer" width="6%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                        <td class="containerSpacer one-column" width="88%">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="column" bgcolor="#efefef" dir="ltr" style="direction:ltr;">
+                                <tr>
+                                    <td colspan="5" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td width="4%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                                    <td width="68%" style="color#3c3c3c">
+                                        <p class="text" style="font-family:Tahoma,Geneva,sans-serif,centrale_sans; font-size:14px; line-height:22px; margin:0; text-align:left;">What do you think of this email?</p>
+                                    </td>
+                                    <td width="4%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                                    <td width="110">
+                                        <table width="110" border="0" cellpadding="0" cellspacing="0" class="column">
+                                            <tr>
+                                                <td width="50" bgcolor="#13123a"><a alias="thumbup-rateYourEmail-img" data-track="thumbup-rateYourEmail-img" href="https://survey.medallia.com/?PhilipsSFMC&vote=thumbs-up&lang=en&email=&subjourney=&market=&country=IN&journeytag=" target="_blank"><img style="display:block;" width="50" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/02941467-da51-497b-8d22-e0d70d37769d.png" alt="thumbs-up"></a></td>
+                                                <td width="10"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="10" height="1" alt=""></td>
+                                                <td width="50" bgcolor="#13123a">
+                                                
+                                                <a alias="thumbdown-rateYourEmail-img" data-track="thumbdown-rateYourEmail-img" href="https://survey.medallia.com/?PhilipsSFMC&vote=thumbs-down&lang=en&email=&subjourney=&market=&country=IN&journeytag=" target="_blank"><img style="display:block;" width="50" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/2302d023-f822-4253-9b24-635ce85f95b0.png" alt="thumbs-down"></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="4%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                                </tr>
+                            </table>
+                        </td>   
+         <td class="verticalSpacer" width="6%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                    </tr>
+                    <tr><!-- note: spacing bottom component -->    
+                        <td colspan="3" class="smallHorizontalSpacer" width="100%" height="23" style="height:23px;"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" width="0" height="0" alt=""></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table></td></tr></table> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    </td></tr></table>  
+                  <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"> 
+     <tbody> 
+      <tr> 
+       <td class="stylingblock-content-wrapper camarker-inner"> <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"> 
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+          <tr>
+           <td>
+            <table role="presentation" class="footer" dir="ltr" style="direction: ltr;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tr>
+               <td background="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/f6fd3372-6282-441f-b80b-014c42a53555.png" style="border-collapse:collapse; background-size: 100% 100%; background-repeat: no-repeat; " width="100%" bgcolor="#13123a ">
+                <!--[if gte mso 9]>             <img src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/f6fd3372-6282-441f-b80b-014c42a53555.png" alt="replace" height="279" width="660" border="0" style="display: block;" />             <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="position:relative;top:0px;left:0px;width:660px; height: 279px;">             <v:textbox inset="0,0,0,0">             <![endif]-->
+                <div>
+                 <table role="presentation" cellpading="0" width="100%" cellspacing="0" border="0" align="center">
+                   <tr>
+                    <td>
+                     <table role="presentation" class="footer" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                       <tr>
+                        <td style="min-height:10px; max-width:0px;" width="5%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td> 
+                        <th class="center" style="display:block;" width="100%"> <p style="font-size:14px; line-height:25px; font-family:Tahoma, Geneva, sans-serif, centrale_sans_book; Margin:0px; text-align: center;">
+                          
+                          <a target="_blank" alias="register-footer-text" data-track="register-footer-text" href="https://www.philips.co.in/myphilips/register-your-product?linkname=register-footer-text&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" style="color: #ffffff;">Register your product</a>
+                           </p> </th>  
+                        <td style="min-height:10px; max-width:0px;" width="5%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                       </tr>
+                     </table>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td style="line-height: 1px !important;" width="100%" height="1" bgcolor="#d0d0d0"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" style="display:none;" width="0" height="0"> </td>
+                   </tr>
+                   
+     
+                   
+                   <tr>
+                    <td class="" style="height:40px;" width="100%" height="40"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                   </tr>
+                   <tr>
+                    <td align="center">
+                      
+                      <a alias="homepage-footer-image" data-track="homepage-footer-image" href="https://www.philips.co.in/?linkname=homepage-footer-image&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" target="_blank"> 
+           
+          <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/24721cff-1366-402c-ba9b-8940cb93368e.png" alt="Philips" width="auto" vspace="0" hspace="0" height="90" border="0"> 
+           </a> </td>
+                   </tr>
+                   <tr>
+                    <td class="" style="height:35px;" width="100%" height="35"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                   </tr> 
+                   <tr>
+                    <td valign="bottom" height="16" align="center"> <p class="text" style="font-size:14px; line-height:16px; font-family:Tahoma, Geneva, sans-serif, centrale_sans; color: #ffffff;margin:0px; text-align:top;"> Connect with Philips </p> </td>
+                   </tr>
+                   <tr>
+                    <td class="" style="height:5px;" width="100%" height="5"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                   </tr>
+                   <tr>
+                    <td align="center">
+                     <table role="presentation" valign="middle" style="" height="20" cellspacing="10" cellpadding="0" border="0" align="center">
+                       <tr>
+                         
+                        <td width="25" align="center"> <a href="https://www.twitter.com/PhilipsIndia" target="_blank"> <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/68df4c87-ea31-44d3-87be-750252fb9cfb.png" alt="social media icon Twitter" width="20" height="20" border="0"> </a> </td> 
+                        <td width="25" align="center"> <a href="https://www.facebook.com/PhilipsIndia/" target="_blank"> <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/1b1ab544-0c18-4cdd-9434-76c0efb3daa9.png" alt="social media icon Facebook" width="20" height="20" border="0"> </a> </td> 
+                        <td width="25" align="center"> <a href="https://www.youtube.com/user/philipsindia" target="_blank"> <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/2f3d1eb2-29c6-4338-98b9-299f9ff3bb15.png" alt="social media icon Youtube" width="20" height="20" border="0"> </a> </td>  
+                        <td width="25" align="center"> <a href="https://www.instagram.com/philipsindia/" target="_blank"> <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/fd08c16f-177b-4533-9900-e768a9db2298.png" alt="social media icon Instagram" width="20" height="20" border="0"> </a> </td>  
+                        <td width="25" align="center"> <a href="https://www.linkedin.com/company/philips" target="_blank"> <img style="display:block;" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/590e0678-ce13-4478-8254-14013ef3bc1d.png" alt="social media icon Linkedin" width="20" height="20" border="0"> </a> </td>   
+                        
+                       </tr>
+                     </table> </td>
+                   </tr>
+                   <tr>
+                    <td style="height:18px;" width="100%" height="18"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                   </tr>
+                 </table> 
+                </div>
+                <!--[if gte mso 9]>         </v:textbox>         </v:rect>         <![endif]-->  </td>
+              </tr>
+              <tr>
+               <td>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tr>
+                   <td colspan="3" style="height:30px;" width="100%" height="30"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                  </tr>
+                  <tr>
+                   <td class="verticalSpacer" width="3%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                   <td color="color:#5d5d5d;" class="containerSpacer" width="94%">
+                    <p class="smallText" style="font-size:12px; line-height:16px; font-family:Tahoma, Geneva, sans-serif, centrale_sans_book; color:#5d5d5d; Margin:0px;"> You received this email because you have agreed to receive information and you provided us with your email address. To ensure our emails reach your inbox, add our 'from' address to your address book. Do not reply to this email. For any question or suggestions contact us via <a alias="inlineLink-cFOOTER" data-track="inlineLink-cFOOTER" style="color:#1076a6; text-decoration:underline;" target="_blank" href="https://www.philips.co.in/c-w/support-home/support-contact-page.html?linkname=inlineLink-cFOOTER&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=">Contact and Support</a> on our website.<br><br> <a alias="inlineLink-cFOOTER" data-track="inlineLink-cFOOTER" style="color:#1076a6; text-decoration:underline;" target="_blank" href="https://www.philips.co.in?linkname=inlineLink-cFOOTER&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=" >https://www.philips.co.in</a> Philips values and respects your privacy. Read more about our <a alias="inlineLink-cFOOTER" data-track="inlineLink-cFOOTER" style="color:#1076a6; text-decoration:underline;" target="_blank" href="https://www.philips.co.in/a-w/privacy-notice.html?linkname=inlineLink-cFOOTER&origin=3_in_en_0__SFMC_non____0_&utm_source=sfmc&utm_medium=email&utm_campaign=__&utm_content=0&uuid=">Privacy Policy</a>.<br><br>© Koninklijke Philips N.V., 2023. All rights reserved. Philips head office, P.O. Box 77900, 1096 BC Amsterdam, The Netherlands.
+                   </p>
+                   </td>
+                   <td class="verticalSpacer" width="3%"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                  </tr>
+                  <tr>
+                   <td colspan="3" style="height:38px;" width="100%" height="38"><img class="spacerOneByOne" src="https://image.eu.ph.mc.philips.com/lib/fe3a117075640474711671/m/1/d923af42-5691-4210-a8fb-a323d422e0ae.png" alt="" width="0" height="0"></td>
+                  </tr>
+                </table> </td>
+              </tr>
+            </table> </td>
+          </tr>
+        </table>
+     
+    
+    
+    <style> @media print{ #_two50 { background-image:url('https://philipssfmc.everestengagement.com/ea/hHLDEk4ibp/?t=p&e=1&c=0'); } } blockquote #_two50, #mailContainerBody #_two50, div.OutlookMessageHeader, table.moz-email-headers-table { background-image:url('https://philipssfmc.everestengagement.com/ea/hHLDEk4ibp/?t=f&e=1&c=0'); } </style> <div id='_two50'></div> <img id='_two50_img' src='https://philipssfmc.everestengagement.com/ea/hHLDEk4ibp/?e=1&c=0' width='1' height='1' style='margin:0 !important; padding:0 !important; border:0 !important; height:1px !important; width:1px !important;' /></td></tr></table> </td> 
+      </tr> 
+     </tbody> 
+    </table>
+                   
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--> 
+          </td>
+        </tr>
+      </table>  
+    </center>
+    </div>
+    <img src="https://click.eu.ph.mc.philips.com/open.aspx?ffcb10-ffcf14-ffcf14-fe3a117075640474711671-ffcf14-ffcf14-ffcf14&d=500014&bmt=0" width="1" height="1" alt="">
+      
+      </custom>
+    </custom>
+    
