@@ -38,7 +38,7 @@ export function TableResults(props: { results: any }) {
                   <InfoCircledIcon className="inline ml-4" />
                 </PopoverTrigger>
                 <PopoverContent className="w-80 text-xs">
-                  How it's been checked
+                  How it is been checked
                 </PopoverContent>
               </Popover>
               {el[0] === CHECK_LIST.responsive && el[1] === true ?
