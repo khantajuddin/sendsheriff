@@ -15,9 +15,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-import { Button } from "@/components/ui/button"
-
-  
   export function TableResults(props: { results: any }) {
     const {results} = props
     return (
@@ -55,7 +52,7 @@ import { Button } from "@/components/ui/button"
               <TableCell className="text-center">
                 {el[1] === "loading" ? 
                   <ReloadIcon className="h-4 w-4 animate-spin inline" /> : 
-                  <Checkbox id="terms" checked={el[1]} disabled />
+                  <Checkbox id="terms" checked={ el[1] ? true: false} disabled />
                 }
               </TableCell>
             </TableRow>
