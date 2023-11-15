@@ -20,7 +20,13 @@ export async function POST(request: Request) {
             const htmlContent = await page.content();
           
             // Save HTML content to a local file
-            const outputFilePath = `public/preview.html`;
+           // const outputFilePath = `public/preview.html`;
+            const outputFilePath = `/tmp/preview.html`;
+            const outputDirectory = `/tmp`;
+            
+            if (!fs.existsSync(outputDirectory)) {
+                fs.mkdirSync(outputDirectory);
+            }
             fs.writeFileSync(outputFilePath, htmlContent, 'utf-8');
           
             console.log(`HTML saved to: ${outputFilePath}`);
